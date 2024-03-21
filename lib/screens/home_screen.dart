@@ -82,7 +82,7 @@ class HomeScreen extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  Image.asset('assests/7.png'),
+                  Image.asset('assests/7.png', scale: 1.5,),
                   const Center(
                     child: Text(
                     '25 C',
@@ -114,9 +114,127 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   ),
-                  const Row(
+                  const SizedBox(height: 30,),
+                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  )
+                    children: [
+                      Row(
+                        children: [
+                          Image.asset('assests/11.png' , scale: 8,),
+                          const SizedBox(width: 5,),
+                          const Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Sunrise",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w300,
+                                ),
+                              ),
+                              SizedBox(height: 3,),
+                              Text(
+                                "5:58 am",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                            ],
+                          )
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Image.asset('assests/12.png' , scale: 8,),
+                          const SizedBox(width: 5,),
+                          const Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Sunset",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w300,
+                                ),
+                              ),
+                              SizedBox(height: 3,),
+                              Text(
+                                "5:58 am",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                            ],
+                          )
+                        ],
+                      )
+                    ],
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.symmetric(vertical: 5),
+                    child: Divider(
+                      color: Colors.grey,
+                    ),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Row(
+                        children: [
+                          Image.asset('assests/13.png' , scale: 8,),
+                          const SizedBox(width: 5,),
+                          const Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Temp Max",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w300,
+                                ),
+                              ),
+                              SizedBox(height: 3,),
+                              Text(
+                                "55 C",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                            ],
+                          )
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Image.asset('assests/14.png' , scale: 8,),
+                          const SizedBox(width: 5,),
+                          const Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Temp Min",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w300,
+                                ),
+                              ),
+                              SizedBox(height: 3,),
+                              Text(
+                                "15 C",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                            ],
+                          )
+                        ],
+                      )
+                    ],
+                  ),
                 ],
               ),
             )
