@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:weater_app/screens/home_screen.dart';
 import 'package:weater_app/bloc/weather_bloc_bloc.dart';
 // import 'package:weater_app/bloc/weather_bloc_event.dart';
 // import 'package:weater_app/bloc/weather_bloc_state.dart';
 import 'package:geolocator/geolocator.dart';
 
-void main() {
+void main() async {
+  //WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
   runApp(const MainApp());
 }
 
