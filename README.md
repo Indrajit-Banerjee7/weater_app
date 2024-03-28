@@ -12,6 +12,10 @@ This Flutter app project provides real-time weather information for your current
 - Uses Geolocator package to fetch user location
 - Implements Flutter Bloc for efficient state management
 
+## Demo
+
+![demo](https://github.com/Indrajit-Banerjee7/weater_app/blob/main/assests/demo.png)
+
 ## Installation
 
 1. Clone this repository to your local machine:
@@ -57,6 +61,4 @@ This project relies on the following dependencies:
 - [Flutter Bloc](https://pub.dev/packages/flutter_bloc): A predictable state management library that helps implement the BLoC (Business Logic Component) design pattern.
 - [Flutter Dotenv](https://pub.dev/packages/flutter_dotenv): A Flutter plugin for handling .env files.
 
-## Demo
 
-![demo](https://github.com/Indrajit-Banerjee7/weater_app/blob/main/assests/demo.png)
