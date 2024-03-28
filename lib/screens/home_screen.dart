@@ -127,7 +127,7 @@ class _HomeScreenState extends State<HomeScreen> {
 													),
 													const SizedBox(height: 8),
 													const Text(
-														'Good Morning',
+														'Namaskar 🙏',
 														style: TextStyle(
 															color: Colors.white,
 															fontSize: 25,
